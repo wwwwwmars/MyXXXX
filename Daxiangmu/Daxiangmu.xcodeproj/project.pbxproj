@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1883513AD870834FC23258D3 /* libPods-Daxiangmu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A312473B720DA56B1C9C5DA /* libPods-Daxiangmu.a */; };
+		85BE7C271D6D42540070C593 /* NameAndPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BE7C251D6D42540070C593 /* NameAndPictureViewController.m */; };
+		85BE7C281D6D42540070C593 /* NameAndPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85BE7C261D6D42540070C593 /* NameAndPictureViewController.xib */; };
+		85BE7C2B1D6DBAD50070C593 /* MakeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BE7C2A1D6DBAD50070C593 /* MakeTableViewController.m */; };
+		85C6C0EB1D6C3B8700942848 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C0EA1D6C3B8700942848 /* main.m */; };
+		85C6C0EE1D6C3B8700942848 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C0ED1D6C3B8700942848 /* AppDelegate.m */; };
+		85C6C0F61D6C3B8700942848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C0F51D6C3B8700942848 /* Assets.xcassets */; };
+		85C6C0F91D6C3B8700942848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C0F71D6C3B8700942848 /* LaunchScreen.storyboard */; };
+		85C6C1031D6C3BDD00942848 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C1011D6C3BDD00942848 /* LoginViewController.m */; };
+		85C6C1041D6C3BDD00942848 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C1021D6C3BDD00942848 /* LoginViewController.xib */; };
+		85C6C10C1D6C3FB500942848 /* ZhuceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C10A1D6C3FB500942848 /* ZhuceViewController.m */; };
+		85C6C10D1D6C3FB500942848 /* ZhuceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C10B1D6C3FB500942848 /* ZhuceViewController.xib */; };
+		85C6C1111D6C3FCA00942848 /* DengLuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C10F1D6C3FCA00942848 /* DengLuViewController.m */; };
+		85C6C1121D6C3FCA00942848 /* DengLuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C1101D6C3FCA00942848 /* DengLuViewController.xib */; };
+		85C6C11A1D6C4A0500942848 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C1191D6C4A0500942848 /* Podfile */; };
+		85C6C1221D6C644400942848 /* XHDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C11E1D6C644400942848 /* XHDrawerController.m */; };
+		85C6C1231D6C644400942848 /* XHZoomDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C1211D6C644400942848 /* XHZoomDrawerView.m */; };
+		85C6C1271D6C652100942848 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C1261D6C652100942848 /* MainNavigationViewController.m */; };
+		85C6C12A1D6C654F00942848 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C1291D6C654F00942848 /* MainTabBarController.m */; };
+		85C6C12E1D6C656B00942848 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C12C1D6C656B00942848 /* MainViewController.m */; };
+		85C6C12F1D6C656B00942848 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C12D1D6C656B00942848 /* MainViewController.xib */; };
+		85C6C13C1D6C695400942848 /* FMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C13A1D6C695400942848 /* FMTableViewController.m */; };
+		85C6C13D1D6C695400942848 /* FMTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C13B1D6C695400942848 /* FMTableViewController.xib */; };
+		85C6C1411D6C697000942848 /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C13F1D6C697000942848 /* MessageTableViewController.m */; };
+		85C6C1421D6C697000942848 /* MessageTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C1401D6C697000942848 /* MessageTableViewController.xib */; };
+		85C6C1461D6C697D00942848 /* FriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C1441D6C697D00942848 /* FriendTableViewController.m */; };
+		85C6C1471D6C697D00942848 /* FriendTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C1451D6C697D00942848 /* FriendTableViewController.xib */; };
+		85C6C14B1D6C699400942848 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C1491D6C699400942848 /* MapViewController.m */; };
+		85C6C14C1D6C699400942848 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C14A1D6C699400942848 /* MapViewController.xib */; };
+		85C6C1501D6C69BF00942848 /* HotQuestionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C14E1D6C69BF00942848 /* HotQuestionTableViewController.m */; };
+		85C6C1511D6C69BF00942848 /* HotQuestionTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C14F1D6C69BF00942848 /* HotQuestionTableViewController.xib */; };
+		85C6C1551D6C69D000942848 /* HotWorkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6C1531D6C69D000942848 /* HotWorkTableViewController.m */; };
+		85C6C1561D6C69D000942848 /* HotWorkTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C6C1541D6C69D000942848 /* HotWorkTableViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D124C50ED97E579183ED46F /* Pods-Daxiangmu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daxiangmu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daxiangmu/Pods-Daxiangmu.debug.xcconfig"; sourceTree = "<group>"; };
+		85BE7C241D6D42540070C593 /* NameAndPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameAndPictureViewController.h; sourceTree = "<group>"; };
+		85BE7C251D6D42540070C593 /* NameAndPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameAndPictureViewController.m; sourceTree = "<group>"; };
+		85BE7C261D6D42540070C593 /* NameAndPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameAndPictureViewController.xib; sourceTree = "<group>"; };
+		85BE7C291D6DBAD50070C593 /* MakeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeTableViewController.h; sourceTree = "<group>"; };
+		85BE7C2A1D6DBAD50070C593 /* MakeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeTableViewController.m; sourceTree = "<group>"; };
+		85C6C0E61D6C3B8700942848 /* Daxiangmu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daxiangmu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C6C0EA1D6C3B8700942848 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85C6C0EC1D6C3B8700942848 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85C6C0ED1D6C3B8700942848 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85C6C0F51D6C3B8700942848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85C6C0F81D6C3B8700942848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85C6C0FA1D6C3B8700942848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C6C1001D6C3BDD00942848 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		85C6C1011D6C3BDD00942848 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		85C6C1021D6C3BDD00942848 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		85C6C1091D6C3FB500942848 /* ZhuceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuceViewController.h; sourceTree = "<group>"; };
+		85C6C10A1D6C3FB500942848 /* ZhuceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuceViewController.m; sourceTree = "<group>"; };
+		85C6C10B1D6C3FB500942848 /* ZhuceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZhuceViewController.xib; sourceTree = "<group>"; };
+		85C6C10E1D6C3FCA00942848 /* DengLuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DengLuViewController.h; sourceTree = "<group>"; };
+		85C6C10F1D6C3FCA00942848 /* DengLuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DengLuViewController.m; sourceTree = "<group>"; };
+		85C6C1101D6C3FCA00942848 /* DengLuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DengLuViewController.xib; sourceTree = "<group>"; };
+		85C6C1131D6C412900942848 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		85C6C1191D6C4A0500942848 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85C6C11D1D6C644400942848 /* XHDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDrawerController.h; sourceTree = "<group>"; };
+		85C6C11E1D6C644400942848 /* XHDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHDrawerController.m; sourceTree = "<group>"; };
+		85C6C11F1D6C644400942848 /* XHDrawerControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDrawerControllerHeader.h; sourceTree = "<group>"; };
+		85C6C1201D6C644400942848 /* XHZoomDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHZoomDrawerView.h; sourceTree = "<group>"; };
+		85C6C1211D6C644400942848 /* XHZoomDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHZoomDrawerView.m; sourceTree = "<group>"; };
+		85C6C1251D6C652100942848 /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
+		85C6C1261D6C652100942848 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
+		85C6C1281D6C654F00942848 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		85C6C1291D6C654F00942848 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		85C6C12B1D6C656B00942848 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		85C6C12C1D6C656B00942848 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		85C6C12D1D6C656B00942848 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		85C6C1391D6C695400942848 /* FMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTableViewController.h; sourceTree = "<group>"; };
+		85C6C13A1D6C695400942848 /* FMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTableViewController.m; sourceTree = "<group>"; };
+		85C6C13B1D6C695400942848 /* FMTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMTableViewController.xib; sourceTree = "<group>"; };
+		85C6C13E1D6C697000942848 /* MessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewController.h; sourceTree = "<group>"; };
+		85C6C13F1D6C697000942848 /* MessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewController.m; sourceTree = "<group>"; };
+		85C6C1401D6C697000942848 /* MessageTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewController.xib; sourceTree = "<group>"; };
+		85C6C1431D6C697D00942848 /* FriendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableViewController.h; sourceTree = "<group>"; };
+		85C6C1441D6C697D00942848 /* FriendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableViewController.m; sourceTree = "<group>"; };
+		85C6C1451D6C697D00942848 /* FriendTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTableViewController.xib; sourceTree = "<group>"; };
+		85C6C1481D6C699400942848 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		85C6C1491D6C699400942848 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		85C6C14A1D6C699400942848 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		85C6C14D1D6C69BF00942848 /* HotQuestionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotQuestionTableViewController.h; sourceTree = "<group>"; };
+		85C6C14E1D6C69BF00942848 /* HotQuestionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotQuestionTableViewController.m; sourceTree = "<group>"; };
+		85C6C14F1D6C69BF00942848 /* HotQuestionTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotQuestionTableViewController.xib; sourceTree = "<group>"; };
+		85C6C1521D6C69D000942848 /* HotWorkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotWorkTableViewController.h; sourceTree = "<group>"; };
+		85C6C1531D6C69D000942848 /* HotWorkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotWorkTableViewController.m; sourceTree = "<group>"; };
+		85C6C1541D6C69D000942848 /* HotWorkTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotWorkTableViewController.xib; sourceTree = "<group>"; };
+		9A312473B720DA56B1C9C5DA /* libPods-Daxiangmu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Daxiangmu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F4619D6477B4A1A2BCC0A1 /* Pods-Daxiangmu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daxiangmu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daxiangmu/Pods-Daxiangmu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85C6C0E31D6C3B8700942848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883513AD870834FC23258D3 /* libPods-Daxiangmu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2CB1C09525BE1E29818AFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D124C50ED97E579183ED46F /* Pods-Daxiangmu.debug.xcconfig */,
+				D3F4619D6477B4A1A2BCC0A1 /* Pods-Daxiangmu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85C6C0DD1D6C3B8700942848 = {
+			isa = PBXGroup;
+			children = (
+				85C6C1191D6C4A0500942848 /* Podfile */,
+				85C6C0E81D6C3B8700942848 /* Daxiangmu */,
+				85C6C0E71D6C3B8700942848 /* Products */,
+				1A2CB1C09525BE1E29818AFC /* Pods */,
+				9C74C7680904C00F9663746F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85C6C0E71D6C3B8700942848 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C0E61D6C3B8700942848 /* Daxiangmu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85C6C0E81D6C3B8700942848 /* Daxiangmu */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C0EC1D6C3B8700942848 /* AppDelegate.h */,
+				85C6C0ED1D6C3B8700942848 /* AppDelegate.m */,
+				85C6C0F51D6C3B8700942848 /* Assets.xcassets */,
+				85C6C0F71D6C3B8700942848 /* LaunchScreen.storyboard */,
+				85C6C0FA1D6C3B8700942848 /* Info.plist */,
+				85C6C1051D6C3EB600942848 /* 登陆界面 */,
+				85C6C1241D6C64E600942848 /* 左侧框架 */,
+				85C6C1381D6C68E700942848 /* 左侧细则 */,
+				85C6C11B1D6C643500942848 /* 界面跳转三方 */,
+				85C6C0E91D6C3B8700942848 /* Supporting Files */,
+			);
+			path = Daxiangmu;
+			sourceTree = "<group>";
+		};
+		85C6C0E91D6C3B8700942848 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C1131D6C412900942848 /* PrefixHeader.pch */,
+				85C6C0EA1D6C3B8700942848 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85C6C1051D6C3EB600942848 /* 登陆界面 */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C1001D6C3BDD00942848 /* LoginViewController.h */,
+				85C6C1011D6C3BDD00942848 /* LoginViewController.m */,
+				85C6C1021D6C3BDD00942848 /* LoginViewController.xib */,
+				85C6C1091D6C3FB500942848 /* ZhuceViewController.h */,
+				85C6C10A1D6C3FB500942848 /* ZhuceViewController.m */,
+				85C6C10B1D6C3FB500942848 /* ZhuceViewController.xib */,
+				85C6C10E1D6C3FCA00942848 /* DengLuViewController.h */,
+				85C6C10F1D6C3FCA00942848 /* DengLuViewController.m */,
+				85C6C1101D6C3FCA00942848 /* DengLuViewController.xib */,
+				85BE7C241D6D42540070C593 /* NameAndPictureViewController.h */,
+				85BE7C251D6D42540070C593 /* NameAndPictureViewController.m */,
+				85BE7C261D6D42540070C593 /* NameAndPictureViewController.xib */,
+			);
+			name = "登陆界面";
+			sourceTree = "<group>";
+		};
+		85C6C11B1D6C643500942848 /* 界面跳转三方 */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C11C1D6C644400942848 /* Source */,
+			);
+			name = "界面跳转三方";
+			sourceTree = "<group>";
+		};
+		85C6C11C1D6C644400942848 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C11D1D6C644400942848 /* XHDrawerController.h */,
+				85C6C11E1D6C644400942848 /* XHDrawerController.m */,
+				85C6C11F1D6C644400942848 /* XHDrawerControllerHeader.h */,
+				85C6C1201D6C644400942848 /* XHZoomDrawerView.h */,
+				85C6C1211D6C644400942848 /* XHZoomDrawerView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		85C6C1241D6C64E600942848 /* 左侧框架 */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C1251D6C652100942848 /* MainNavigationViewController.h */,
+				85C6C1261D6C652100942848 /* MainNavigationViewController.m */,
+				85C6C1281D6C654F00942848 /* MainTabBarController.h */,
+				85C6C1291D6C654F00942848 /* MainTabBarController.m */,
+				85C6C12B1D6C656B00942848 /* MainViewController.h */,
+				85C6C12C1D6C656B00942848 /* MainViewController.m */,
+				85C6C12D1D6C656B00942848 /* MainViewController.xib */,
+			);
+			name = "左侧框架";
+			sourceTree = "<group>";
+		};
+		85C6C1301D6C687300942848 /* 朋友圈 */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C1391D6C695400942848 /* FMTableViewController.h */,
+				85C6C13A1D6C695400942848 /* FMTableViewController.m */,
+				85C6C13B1D6C695400942848 /* FMTableViewController.xib */,
+			);
+			name = "朋友圈";
+			sourceTree = "<group>";
+		};
+		85C6C1311D6C688F00942848 /* 消息列表 */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C13E1D6C697000942848 /* MessageTableViewController.h */,
+				85C6C13F1D6C697000942848 /* MessageTableViewController.m */,
+				85C6C1401D6C697000942848 /* MessageTableViewController.xib */,
+			);
+			name = "消息列表";
+			sourceTree = "<group>";
+		};
+		85C6C1321D6C68A600942848 /* 好友列表 */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C1431D6C697D00942848 /* FriendTableViewController.h */,
+				85C6C1441D6C697D00942848 /* FriendTableViewController.m */,
+				85C6C1451D6C697D00942848 /* FriendTableViewController.xib */,
+			);
+			name = "好友列表";
+			sourceTree = "<group>";
+		};
+		85C6C1331D6C68AF00942848 /* 位置服务 */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C1481D6C699400942848 /* MapViewController.h */,
+				85C6C1491D6C699400942848 /* MapViewController.m */,
+				85C6C14A1D6C699400942848 /* MapViewController.xib */,
+			);
+			name = "位置服务";
+			sourceTree = "<group>";
+		};
+		85C6C1351D6C68CA00942848 /* 热门问题 */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C14D1D6C69BF00942848 /* HotQuestionTableViewController.h */,
+				85C6C14E1D6C69BF00942848 /* HotQuestionTableViewController.m */,
+				85C6C14F1D6C69BF00942848 /* HotQuestionTableViewController.xib */,
+			);
+			name = "热门问题";
+			sourceTree = "<group>";
+		};
+		85C6C1361D6C68D300942848 /* 热门项目 */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C1521D6C69D000942848 /* HotWorkTableViewController.h */,
+				85C6C1531D6C69D000942848 /* HotWorkTableViewController.m */,
+				85C6C1541D6C69D000942848 /* HotWorkTableViewController.xib */,
+			);
+			name = "热门项目";
+			sourceTree = "<group>";
+		};
+		85C6C1371D6C68DC00942848 /* 设置页面 */ = {
+			isa = PBXGroup;
+			children = (
+				85BE7C291D6DBAD50070C593 /* MakeTableViewController.h */,
+				85BE7C2A1D6DBAD50070C593 /* MakeTableViewController.m */,
+			);
+			name = "设置页面";
+			sourceTree = "<group>";
+		};
+		85C6C1381D6C68E700942848 /* 左侧细则 */ = {
+			isa = PBXGroup;
+			children = (
+				85C6C1371D6C68DC00942848 /* 设置页面 */,
+				85C6C1361D6C68D300942848 /* 热门项目 */,
+				85C6C1351D6C68CA00942848 /* 热门问题 */,
+				85C6C1331D6C68AF00942848 /* 位置服务 */,
+				85C6C1321D6C68A600942848 /* 好友列表 */,
+				85C6C1311D6C688F00942848 /* 消息列表 */,
+				85C6C1301D6C687300942848 /* 朋友圈 */,
+			);
+			name = "左侧细则";
+			sourceTree = "<group>";
+		};
+		9C74C7680904C00F9663746F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A312473B720DA56B1C9C5DA /* libPods-Daxiangmu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85C6C0E51D6C3B8700942848 /* Daxiangmu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C6C0FD1D6C3B8700942848 /* Build configuration list for PBXNativeTarget "Daxiangmu" */;
+			buildPhases = (
+				3D9AB4E5FAF771D8508AD3C6 /* [CP] Check Pods Manifest.lock */,
+				85C6C0E21D6C3B8700942848 /* Sources */,
+				85C6C0E31D6C3B8700942848 /* Frameworks */,
+				85C6C0E41D6C3B8700942848 /* Resources */,
+				4AF8130F0E23663FA036DF2B /* [CP] Embed Pods Frameworks */,
+				5569A5F5A6A7009B9D90C968 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Daxiangmu;
+			productName = Daxiangmu;
+			productReference = 85C6C0E61D6C3B8700942848 /* Daxiangmu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85C6C0DE1D6C3B8700942848 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					85C6C0E51D6C3B8700942848 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 85C6C0E11D6C3B8700942848 /* Build configuration list for PBXProject "Daxiangmu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85C6C0DD1D6C3B8700942848;
+			productRefGroup = 85C6C0E71D6C3B8700942848 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85C6C0E51D6C3B8700942848 /* Daxiangmu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85C6C0E41D6C3B8700942848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C6C11A1D6C4A0500942848 /* Podfile in Resources */,
+				85BE7C281D6D42540070C593 /* NameAndPictureViewController.xib in Resources */,
+				85C6C1511D6C69BF00942848 /* HotQuestionTableViewController.xib in Resources */,
+				85C6C1471D6C697D00942848 /* FriendTableViewController.xib in Resources */,
+				85C6C0F91D6C3B8700942848 /* LaunchScreen.storyboard in Resources */,
+				85C6C1561D6C69D000942848 /* HotWorkTableViewController.xib in Resources */,
+				85C6C0F61D6C3B8700942848 /* Assets.xcassets in Resources */,
+				85C6C10D1D6C3FB500942848 /* ZhuceViewController.xib in Resources */,
+				85C6C13D1D6C695400942848 /* FMTableViewController.xib in Resources */,
+				85C6C1421D6C697000942848 /* MessageTableViewController.xib in Resources */,
+				85C6C1121D6C3FCA00942848 /* DengLuViewController.xib in Resources */,
+				85C6C12F1D6C656B00942848 /* MainViewController.xib in Resources */,
+				85C6C14C1D6C699400942848 /* MapViewController.xib in Resources */,
+				85C6C1041D6C3BDD00942848 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D9AB4E5FAF771D8508AD3C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4AF8130F0E23663FA036DF2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daxiangmu/Pods-Daxiangmu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5569A5F5A6A7009B9D90C968 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daxiangmu/Pods-Daxiangmu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85C6C0E21D6C3B8700942848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C6C1221D6C644400942848 /* XHDrawerController.m in Sources */,
+				85C6C0EE1D6C3B8700942848 /* AppDelegate.m in Sources */,
+				85C6C1501D6C69BF00942848 /* HotQuestionTableViewController.m in Sources */,
+				85C6C12A1D6C654F00942848 /* MainTabBarController.m in Sources */,
+				85C6C12E1D6C656B00942848 /* MainViewController.m in Sources */,
+				85C6C0EB1D6C3B8700942848 /* main.m in Sources */,
+				85C6C13C1D6C695400942848 /* FMTableViewController.m in Sources */,
+				85C6C1461D6C697D00942848 /* FriendTableViewController.m in Sources */,
+				85C6C1111D6C3FCA00942848 /* DengLuViewController.m in Sources */,
+				85BE7C271D6D42540070C593 /* NameAndPictureViewController.m in Sources */,
+				85C6C10C1D6C3FB500942848 /* ZhuceViewController.m in Sources */,
+				85C6C1271D6C652100942848 /* MainNavigationViewController.m in Sources */,
+				85C6C1231D6C644400942848 /* XHZoomDrawerView.m in Sources */,
+				85C6C1551D6C69D000942848 /* HotWorkTableViewController.m in Sources */,
+				85C6C1031D6C3BDD00942848 /* LoginViewController.m in Sources */,
+				85BE7C2B1D6DBAD50070C593 /* MakeTableViewController.m in Sources */,
+				85C6C1411D6C697000942848 /* MessageTableViewController.m in Sources */,
+				85C6C14B1D6C699400942848 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85C6C0F71D6C3B8700942848 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85C6C0F81D6C3B8700942848 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85C6C0FB1D6C3B8700942848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85C6C0FC1D6C3B8700942848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85C6C0FE1D6C3B8700942848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D124C50ED97E579183ED46F /* Pods-Daxiangmu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Daxiangmu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.Daxiangmu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85C6C0FF1D6C3B8700942848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F4619D6477B4A1A2BCC0A1 /* Pods-Daxiangmu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Daxiangmu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.Daxiangmu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85C6C0E11D6C3B8700942848 /* Build configuration list for PBXProject "Daxiangmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C6C0FB1D6C3B8700942848 /* Debug */,
+				85C6C0FC1D6C3B8700942848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C6C0FD1D6C3B8700942848 /* Build configuration list for PBXNativeTarget "Daxiangmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C6C0FE1D6C3B8700942848 /* Debug */,
+				85C6C0FF1D6C3B8700942848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85C6C0DE1D6C3B8700942848 /* Project object */;
+}
